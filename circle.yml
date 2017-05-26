@@ -23,7 +23,7 @@ dependencies:
     - ln -s /usr/lib/python2.7/dist-packages/gobject /opt/circleci/python/2.7.11/lib/python2.7/site-packages/
     - ln -s /usr/lib/python2.7/dist-packages/glib /opt/circleci/python/2.7.11/lib/python2.7/site-packages/
     - sudo apt-get install doxygen
-    - cd naviti && doxygen && mv ../docs $CIRCLE_ARTIFACTS
+    - cd navit && doxygen && mv ../docs $CIRCLE_ARTIFACTS
 test:
 
   override:
